@@ -57,7 +57,7 @@ nav{
 nav h2{
     visibility: hidden;
 }
-li ul{
+li{
 position:fixed;
 top: 0px;
 right:0px;
@@ -75,9 +75,6 @@ nav a{
 }
 nav a:hover{
     color:white;
-}
-nav li{
-
 }
 h2{
     font-size: 2em;
