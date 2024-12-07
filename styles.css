@@ -4,15 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 /*-------------------- CSS REST ---------------------------------------------------*/
 /* -------------------- ROOT VARIABLES --------------------------------------- */
-:root{
-Teal :#4CA7C0
-Purple: #484FB7;
-Lavender: #6B8FE7;
-Yellow: #E9BB57; 
-Pink:#D9526F;
-Dark-gray:#1E1E1E; 
-White:#ffffff; 
-}
+
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
@@ -139,12 +131,9 @@ grid-column: 1/-1;
     background-color: #D9526F;
 }
 @media screen and (min-width:450px){
-    
-}
-@media screen and (min-width:620px){
     #pricing{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     #pricing h2{
         grid-column: 1/-1;
@@ -153,7 +142,26 @@ grid-column: 1/-1;
     }
     #services{
         display: grid;
+        grid-template-columns: 1fr ;
+    }
+#services h2{
+grid-column: 1/-1;
+
+}
+}
+@media screen and (min-width:620px){
+    #pricing{
+        display: grid;
         grid-template-columns: 1fr 1fr ;
+    }
+    #pricing h2{
+        grid-column: 1/-1;
+        text-align: center;
+    
+    }
+    #services{
+        display: grid;
+        grid-template-columns: 1fr ;
     }
 #services h2{
 grid-column: 1/-1;
@@ -163,7 +171,7 @@ grid-column: 1/-1;
 @media screen and (min-width:950px){
     #pricing{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
     #pricing h2{
         grid-column: 1/-1;
