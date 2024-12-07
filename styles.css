@@ -52,21 +52,25 @@ h1{
 nav{
     background-color: #E9BB57;
     border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position:fixed;
+top: 0px;
+right:0px;
+display: inline-flex;
 }
 nav h2{
     visibility: hidden;
 }
-li{
+ul{
 position:fixed;
 top: 0px;
 right:0px;
 display: inline-flex;
 gap: 30px;
+list-style: none;
+background-color: #E9BB57;
 }
-ul{
-    list-style: none;
-}
+
 nav a{
     background-color: #E9BB57;
     text-decoration: none;
