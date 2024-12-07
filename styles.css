@@ -56,9 +56,7 @@ nav{
 position:fixed;
 top: 0px;
 right:0px;
-display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
+display: inline-flex;
 }
 ul{
     list-style: none;
