@@ -49,7 +49,10 @@ h1{
     font-size: 3em;
     text-align: center;
 }
-nav{
+#menu>li{
+    visibility: hidden;
+}
+nav ul{
     background-color: #E9BB57;
     border-radius: 15px;
 }
