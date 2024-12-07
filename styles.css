@@ -52,6 +52,9 @@ h1{
 nav h2{
     visibility: hidden;
 }
+nav>li{
+    visibility: none;
+}
 li ul{
 position:fixed;
 top: 0px;
