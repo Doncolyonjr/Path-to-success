@@ -81,6 +81,9 @@ h4{
     font-family: 'inter';
     font-size: 1.15em;
 }
+#services h3{
+    color: #E9BB57;
+}
 div{
     background-color: white;
     border-radius: 25px;
