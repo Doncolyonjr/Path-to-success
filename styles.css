@@ -28,3 +28,9 @@ body{
     padding: 0;
     font-family: 'inter';
 }
+header{
+    background-color: #4CA7C0;
+    color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
