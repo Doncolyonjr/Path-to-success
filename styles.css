@@ -56,10 +56,16 @@ nav{
 position:fixed;
 top: 0px;
 right:0px;
-
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 ul{
     list-style: none;
+}
+nav a{
+    background-color: #E9BB57;
+    
 }
 nav li{
     display: grid;
