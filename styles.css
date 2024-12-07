@@ -126,7 +126,10 @@ grid-column: 1/-1;
     background: #484fB7;
 }
 #s{
-    
+    background:#E9BB57;
+}
+#f{
+    background-color: white;
 }
 @media screen and (min-width:450px){
     
