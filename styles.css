@@ -133,6 +133,10 @@ grid-column: 1/-1;
 #f{
     background-color: white;
 }
+#first-step{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 @media screen and (min-width:450px){
     
 }
@@ -144,7 +148,7 @@ grid-column: 1/-1;
 }
 @media screen and (min-width:1280px){
     body{
-        margin: auto;
+        margin: 30px;
     }
     #pricing{
         display: grid;
