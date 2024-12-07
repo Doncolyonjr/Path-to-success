@@ -97,6 +97,11 @@ h4{
 div{
     background-color: white;
     border-radius: 25px;
+    text-align: left;
+}
+#pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 @media screen and (min-width:450px){
     
