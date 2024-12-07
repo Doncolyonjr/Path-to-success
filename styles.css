@@ -49,18 +49,11 @@ h1{
     font-size: 3em;
     text-align: center;
 }
-#menu>li{
-    visibility: hidden;
-}
-nav ul{
-    background-color: #E9BB57;
-    border-radius: 15px;
+nav{
+    background-color: ;
 }
 nav h2{
     visibility: hidden;
-}
-nav>li{
-    visibility: none;
 }
 li ul{
 position:fixed;
