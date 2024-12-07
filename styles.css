@@ -116,7 +116,18 @@ div{
 #why h2{
 grid-column: 1/-1;
 }
-
+#why h4{
+    width: 100px;
+}
+#p{
+    background:#4CA7C0;
+}
+#pr{
+    background: #484fB7;
+}
+#s{
+    
+}
 @media screen and (min-width:450px){
     
 }
