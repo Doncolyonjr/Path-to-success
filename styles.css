@@ -64,6 +64,11 @@ ul{
 nav li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    position:fixed;
+top: 0px;
+right:0px;
+
 }
 h2{
     font-size: 2em;
