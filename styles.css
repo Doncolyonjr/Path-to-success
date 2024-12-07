@@ -67,7 +67,11 @@ ul{
 }
 nav a{
     background-color: #E9BB57;
-    
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color:white;
 }
 nav li{
 
