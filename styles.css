@@ -117,7 +117,8 @@ div{
 grid-column: 1/-1;
 }
 #why h4{
-    width: 100px;
+    width: 300px;
+    text-align: center;
 }
 #p{
     background:#4CA7C0;
