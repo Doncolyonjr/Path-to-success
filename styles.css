@@ -58,6 +58,13 @@ top: 0px;
 right:0px;
 
 }
+ul{
+    list-style: none;
+}
+nav a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 h2{
     font-size: 2em;
 }
@@ -68,4 +75,8 @@ h3{
 h4{
     font-family: 'inter';
     font-size: 1.15em;
+}
+div{
+    background-color: white;
+    border-radius: 25px;
 }
